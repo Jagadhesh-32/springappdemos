@@ -15,8 +15,8 @@ public class App
 
 		JdbcTemplate jdbcTemplate = (JdbcTemplate) springContainer.getBean("jdbctemplate");
 		
-		String sql = "insert into products values (?, ?)";
-		int updateResult = jdbcTemplate.update(sql, 1, "John",22,"wat",3);
+		String sql = "insert into employee values (?, ?, ?)";
+		int updateResult = jdbcTemplate.update(sql, 1, "John", "Wilson");
 		System.out.println("Number of records inserted: " + updateResult);
 		
 

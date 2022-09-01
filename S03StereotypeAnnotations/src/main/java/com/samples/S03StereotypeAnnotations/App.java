@@ -1,5 +1,8 @@
 package com.samples.S03StereotypeAnnotations;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.samples.S03StereotypeAnnotations.model.Instructor;
 
 /**
  * Hello world!
